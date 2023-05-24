@@ -1,0 +1,22 @@
+.App{
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    .first{
+        scroll-snap-align: start;
+    }
+    .home{
+        scroll-snap-align: start;
+    }
+    .contact{
+        scroll-snap-align: start;
+    }
+    .help{
+        scroll-snap-align: start;
+    }
+}
+.App::-webkit-scrollbar{
+    display: none;
+}
